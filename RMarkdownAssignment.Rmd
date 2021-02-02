@@ -1,0 +1,72 @@
+---
+title: "In Class Assignment - Jan 28th"
+author: "Hieu Hoang"
+date: "1/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Reminder: There is a "Markdown Help" page available in RStudio. 
+
+
+## In-class Activity, Markdown
+
+Below the "Your work here" section header, do the following 3 things. To turn this in, knit the RMarkdown file, and zip and submit the html.  
+
+1. Put your favorite quote in a block quote. Add a functioning link to a website that provides more information about that quote.
+
+Eleanor Roosevelt:
+
+>You must do the thing 
+>you think you cannot do.
+
+[Eleanor Roosevelt Quotes][id].
+
+[id]:https://www.goalcast.com/2017/04/25/top-eleanor-roosevelt-quotes-inspire-greatness/ "Title"
+
+2. Make a three column table of the current courses you are taking, with separate columns for course number (in __bold__), course title (in _italics_), and instructor name.
+
+|Course|__Course Number__|Course Title|
+|:-----|:-----------|:------------|
+|R.Davila|__2421__|_Differ & Integral Calculus_|
+|K.Jones|__3305__|_Money, Market & Insitutions_|
+K.Shoemaker|__2401__|_Data Science 1_|
+
+3. Lastly, make a section with some information about your favorite author or musician.
+
++ A _heading_ with the name of the artist or author;    
+
+# Favorite Author: Dr. Seuss
+
+
++ An example of their writing or lyrics (formatted in a *plain code block*);  
+
+
+#### You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.
+
+
+
++ A _list_ of things they have written or performed (remember to use the formatting markup for a list!).  
+
+* Books Dr. Seuss has written
++ The Cat In The Hat
++ Green Eggs And Ham
++ Fox In The Socks
+
+*
+
+
+
+Note that you can click "Knit" as you go along to see what the final results are going to look like. Zip the resulting html and turn it in to Blackboard.     
+ 
+file:///C:/Users/hieuw/Documents/GitHub/Data2401ClassRepo/RMarkdownAssignment.html
+
+Remove this text and replace it with the code to do the three requests above.   
+
+- a list
+- of things
+
+

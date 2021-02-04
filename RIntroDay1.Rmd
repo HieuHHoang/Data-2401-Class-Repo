@@ -1,0 +1,53 @@
+---
+title: "Intro To R Activity"
+author: "Hieu Hoang"
+date: "2/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. multiply 4 by 7
+4 * 9
+
+2. raise 6 to the power of 3
+6 ^ 3
+
+3. Subtract 1.5 from 10 and then raise the answer to the power of 1.3 plus 1.789
+(10-1.5)^(1.3+1.789)
+
+4. Divide 5 by 2.5 then divide the answer by 4
+(5/2.5)/4
+
+5. Create an object called “obj1” which is the number 15
+obj1 <- 15
+obj1
+
+6. Create an object called “obj2”" which is the answer to the sum of 100 + 25
+obj2 <- 100 + 25
+obj2
+
+7. Multiply “obj1” and “obj2” together and store the answer as another object called “obj3”
+obj3 <- obj1 * obj2
+obj3
+
+8. Subtract 1 from “obj3” and calculate the 4th root (raise to power of 1/4). Save this as an object called “final.answer”
+final.answer <- (obj3-1) ^ (1/4)
+
+
+9. Highlight and run “final.answer” to print your answer to the console
+final.answer
+
+10. Create a vector called “my.text”" which contains two elements, the phrases “Learning R” and “is fun!”. Highlight and run the my.text variable so it prints to your console.
+my.text <-c ('Learning R', 'is fun!')
+my.text
+
+11. If you haven’t already done so, save the RMarkdown file to your class folder and give it the name “RIntroDay1.rmd” or something similar.
+
+
+12. Turn in this file to Blackboard. 
+```{r}
+
+```
